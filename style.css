@@ -1,0 +1,170 @@
+html,
+body {
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    color: grey;
+    margin: 100px;
+}
+
+.main_block {
+    margin: auto;
+    width: 660px;
+    height: 230px;
+    border: 1px solid #e5e5e5;
+    display: flex;
+
+}
+
+.gallery {
+    width: 170px;
+    height: 230px;
+    border: 1px solid #e5e5e5;
+    background-color: #fefefe;
+    position: relative;
+}
+
+.flame2 {
+    position: absolute;
+    left: 1px;
+    bottom: 15px;
+    z-index: 0;
+}
+
+.flame1 {
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
+}
+
+.top {
+    position: absolute;
+    left: 5px;
+    bottom: 10px;
+    text-align: center;
+    color: #e5e5e5;
+    padding-left: 5px;
+    padding-bottom: 13px;
+    font-size: 11px;
+}
+
+.stock {
+    width: 54px;
+    height: 32px;
+    text-align: center;
+    background-color: darkorange;
+    border-top: 2px dashed white;
+    border-bottom: 2px dashed white;
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    left: 55px;
+}
+
+.super {
+    position: absolute;
+    right: 20px;
+    bottom: 12px;
+    color: black;
+}
+
+.gallery p {
+    display: inline-block;
+}
+
+.aotv {
+    height: 160px;
+    width: 160px;
+}
+
+.description {
+    width: 300px;
+    height: 230px;
+    background-color: #f8f8f8;
+    border: 1px solid #e5e5e5;
+    /*padding-left: 10px;*/
+    /*padding-top: 10px;*/
+    position: relative;
+}
+
+.description p {
+    padding-left: 10px;
+
+}
+
+.more {
+    position: absolute;
+    right: 30px;
+    bottom: 5px;
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+    color: #636363;
+    font-style: italic;
+}
+
+.more:hover {
+    color: #933364;
+}
+
+.price {
+    height: 230px;
+    width: 190px;
+    border: 1px solid #e5e5e5;
+    position: relative;
+}
+
+.borderPrice {
+    position: absolute;
+    left: 20px;
+    top: 65px;
+}
+
+.price h2 {
+    text-align: center;
+    color: #217a95;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+.grn {
+    font-weight: bold;
+    font-size: 18px;
+    color: #933364;
+    padding-top: 5px;
+    padding-left: 46px;
+}
+
+.callBack {
+    color: #217a95;
+    margin-left: 33px;
+    margin-top: 13px;
+    margin-bottom: 20px;
+}
+
+.guarantee {
+    color: #933364;
+    text-align: center;
+    font-style: italic;
+}
+
+/*.phone {*/
+/*    align-items: left;*/
+/*}*/
+.buyButtom {
+    background-color: #2799a8;
+    color: white;
+    padding: 9px 20px;
+    border-radius: 7px;
+    margin-left: 49px;
+}
+
+.specifications {
+    font-weight: bold;
+    color: #636363;
+}
+
+.more-bg {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
